@@ -12,6 +12,7 @@ function firstNonRepeatedChar(str) {
 		if(fred[s[i].charCodeAt(0)] > 0 && fred[s[i].charCodeAt(0)] == 1){
 			return str.charAt(i);
 		}
+		
 	}
 
 	return null;
